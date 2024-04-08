@@ -83,7 +83,7 @@
   --bs-link-color: #000;
   --bs-link-hover-color: #82cd47;
   --bs-code-color: #d63384;
-  --bs-highlight-bg: #fff3cd;
+  --bs-highlight-bg: #e7ffd2;
 }
 
 *,
@@ -11190,6 +11190,10 @@ html {
   line-height: 2rem;
 }
 .page-section .page-section-subheading {
+  font-size: 1.25rem;
+  text-decoration: var(--bs-primary) wavy underline;
+}
+.page-section .page-section-subheading2 {
   font-size: 1.25rem;
 }
 .page-section .page-section-img {
