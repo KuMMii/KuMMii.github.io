@@ -220,6 +220,10 @@ li {
   padding-bottom: 0.2rem;
 }
 
+li::marker {
+  color: var(--bs-primary);
+}
+
 ol,
 ul {
   padding-left: 2rem;
@@ -11190,7 +11194,7 @@ html {
 }
 .page-section .page-section-img {
   margin: 1.5rem 0.4rem;
-  width: 15rem;
+  width: 35rem;
 }
 .page-section .page-section-img img {
   width: 100%;
